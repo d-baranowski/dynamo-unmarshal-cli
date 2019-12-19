@@ -1,5 +1,5 @@
 {
-  "name": "unarshal",
+  "name": "marshall",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,6 +12,7 @@
     "aws-sdk": "^2.585.0"
   },
   "bin": {
-    "unmarshal": "./index.js"
+    "unmarshall": "./unmarshall.js",
+    "marshall": "./marshall.js"
   }
 }
